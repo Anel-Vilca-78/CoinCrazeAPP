@@ -37,7 +37,7 @@ class Login extends StatelessWidget {
                   width: 546 * fem,
                   height: 518 * fem,
                   child: Image.asset(
-                    'assets/images/presupuesto.jpg',
+                    'assets/images/fondo.iniciar sesión.png',
                     width: 546 * fem,
                     height: 518 * fem,
                   ),
@@ -335,30 +335,15 @@ class Login extends StatelessWidget {
               ),
             ),
             Positioned(
-              // pilademonedas1xLv (1:182)
-              left: 200 * fem,
-              top: 395 * fem,
-              child: Align(
-                child: SizedBox(
-                  width: 40 * fem,
-                  height: 38 * fem,
-                  child: Image.asset(
-                    ('assets/images/pila-de-moneda.png'),
-                    fit: BoxFit.cover,
-                  ),
-                ),
-              ),
-            ),
-            Positioned(
               // image114uk (1:183)
-              left: 42 * fem,
-              top: 86 * fem,
+              left: 198 * fem,
+              top: 392 * fem,
               child: Align(
                 child: SizedBox(
-                  width: 343 * fem,
-                  height: 62 * fem,
+                  width: 42 * fem,
+                  height: 47 * fem,
                   child: Image.asset(
-                    ('assets/images/logo.png'),
+                    ('assets/images/pila-de-monedas.png'),
                     fit: BoxFit.cover,
                   ),
                 ),

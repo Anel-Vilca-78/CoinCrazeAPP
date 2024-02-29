@@ -27,6 +27,7 @@ flutter:
   assets:
     - assets/images/
 
+
   # Agrega tus fuentes personalizadas aquí si tienes alguna
   # fonts:
   #   - family: TuFuentePersonalizada

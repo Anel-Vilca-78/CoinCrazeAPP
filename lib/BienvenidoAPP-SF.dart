@@ -20,7 +20,7 @@ class BienvenidoAPP extends StatelessWidget {
           image: DecorationImage(
             fit: BoxFit.cover,
             image: AssetImage(
-              'assets/page-1/images/image-6-bg.png',
+              'assets/images/fondo.iniciar sesión.png',
             ),
           ),
         ),
@@ -42,9 +42,6 @@ class BienvenidoAPP extends StatelessWidget {
                       child: SizedBox(
                         width: 261 * fem,
                         height: 58 * fem,
-                        child: Image.asset(
-                          'assets/page-1/images/image-9.png',
-                        ),
                       ),
                     ),
                   ),
@@ -57,7 +54,7 @@ class BienvenidoAPP extends StatelessWidget {
                         width: 80 * fem,
                         height: 58 * fem,
                         child: Image.asset(
-                          'assets/page-1/images/image-10.png',
+                          'assets/images/logo.png',
                         ),
                       ),
                     ),

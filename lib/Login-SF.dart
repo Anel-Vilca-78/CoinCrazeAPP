@@ -72,11 +72,11 @@ class Scene extends StatelessWidget {
                         Positioned(
                           // image14Smc (1:162)
                           left: 0 * fem,
-                          top: 0 * fem,
+                          top: 100 * fem,
                           child: Align(
                             child: SizedBox(
-                              width: 53 * fem,
-                              height: 48 * fem,
+                              width: 100 * fem,
+                              height: 500 * fem,
                               child: Image.asset(
                                 'assets/page-1/images/image-14-DoL.png',
                               ),

@@ -23,9 +23,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'COIN CRAZE',
       routes: {
-        '/agregar-gasto': (context) =>
-            //const AgregarGasto(), // Ruta para agregar gasto.
-            AgregarGasto(), // Ruta para agregar gasto.
+        '/agregar-gasto': (context) => AgregarGasto(),
+        '/historial': (context) => Historial(),
+        '/estadisticas': (context) => Estadisticas(),
       },
       theme: ThemeData(
         primaryColor: const Color(0xFF1A1D85),
@@ -50,12 +50,13 @@ class MyApp extends StatelessWidget {
 
       //Vistas ejecutables WUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU
       //home: AgregarGasto(),
-      home: Historial(),
+      //home: Historial(),
       //home: Home(),
       //home: Estadisticas(),
       //home: Login(),
-      //home: Register(),
+      home: Register(),
       //home: BienvenidoAPP(),
+      //home: Home(),
     );
   }
 }

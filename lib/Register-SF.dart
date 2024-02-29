@@ -29,7 +29,7 @@ class Register extends StatelessWidget {
                   width: 546 * fem,
                   height: 518 * fem,
                   child: Image.asset(
-                    'assets/page-1/images/mask-group-HXt.png',
+                    'assets/images/fondo.iniciar sesión.png',
                     width: 546 * fem,
                     height: 518 * fem,
                   ),
@@ -335,7 +335,7 @@ class Register extends StatelessWidget {
                   width: 40 * fem,
                   height: 38 * fem,
                   child: Image.asset(
-                    'assets/page-1/images/pila-de-monedas-2.png',
+                    'assets/images/pila-de-monedas.png',
                     fit: BoxFit.cover,
                   ),
                 ),
@@ -349,10 +349,6 @@ class Register extends StatelessWidget {
                 child: SizedBox(
                   width: 343 * fem,
                   height: 62 * fem,
-                  child: Image.asset(
-                    'assets/page-1/images/image-12.png',
-                    fit: BoxFit.cover,
-                  ),
                 ),
               ),
             ),
