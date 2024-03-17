@@ -21,17 +21,26 @@ class Register extends StatelessWidget {
         child: Stack(
           children: [
             Positioned(
-              // maskgroupi8N (1:188)
-              left: 0 * fem,
-              top: 0 * fem,
-              child: Align(
-                child: SizedBox(
-                  width: 546 * fem,
-                  height: 518 * fem,
+              left: 0,
+              right: 0,
+              top: -MediaQuery.of(context).size.height * 0.1,
+              child: Image.asset(
+                'assets/images/Encabezado-Login-Registro.png',
+                width: MediaQuery.of(context).size.width,
+                height: MediaQuery.of(context).size.height * 0.7,
+                fit: BoxFit.cover,
+              ),
+            ),
+            Positioned(
+              top: MediaQuery.of(context).size.height * 0.1, // Aumenta este valor para mover el logo hacia abajo
+              child: Container(
+                width: MediaQuery.of(context).size.width,
+                child: Align(
+                  alignment: Alignment.topCenter,
                   child: Image.asset(
-                    'assets/images/fondo.iniciar sesión.png',
-                    width: 546 * fem,
-                    height: 518 * fem,
+                    'assets/images/logo3.png',
+                    width: MediaQuery.of(context).size.width * 0.8, // Aumenta este valor para hacer el logo más grande
+                    // Agrega height si necesitas un valor específico de altura
                   ),
                 ),
               ),

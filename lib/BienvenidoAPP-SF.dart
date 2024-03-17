@@ -17,8 +17,7 @@ class BienvenidoAPP extends StatelessWidget {
         width: double.infinity,
         decoration: BoxDecoration(
           color: Color(0x7c3b41ca),
-          image: DecorationImage(
-            fit: BoxFit.cover,
+          image: DecorationImage(            fit: BoxFit.cover,
             image: AssetImage(
               'assets/images/fondo.iniciar sesión.png',
             ),
@@ -47,14 +46,12 @@ class BienvenidoAPP extends StatelessWidget {
                   ),
                   Positioned(
                     // image10qb4 (12:212)
-                    left: 87 * fem,
-                    top: 0 * fem,
                     child: Align(
                       child: SizedBox(
-                        width: 80 * fem,
-                        height: 58 * fem,
+                        width: 280 * fem,
+                        height: 258 * fem,
                         child: Image.asset(
-                          'assets/images/logo.png',
+                          'assets/images/logo2.png',
                         ),
                       ),
                     ),

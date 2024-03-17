@@ -51,11 +51,11 @@ class MyApp extends StatelessWidget {
       //Vistas ejecutables WUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU
       //home: AgregarGasto(),
       //home: Historial(),
-      home: Home(),
+      //home: Home(),
       //home: Estadisticas(),
       //home: Login(),
       //home: Register(),
-      //home: BienvenidoAPP(),
+      home: BienvenidoAPP(),
       //home: Home(),
     );
   }

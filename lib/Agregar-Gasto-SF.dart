@@ -57,34 +57,23 @@ class _AgregarGastoState extends State<AgregarGasto> {
           width: double.infinity,
           child: Container(
             width: double.infinity,
-            decoration: BoxDecoration(
-              color: Color(0xfff5f5f8),
-              boxShadow: [
-                BoxShadow(
-                  color: Color(0x3f000000),
-                  offset: Offset(0 * fem, 4 * fem),
-                  blurRadius: 2 * fem,
-                ),
-              ],
-            ),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 Container(
                   // agregargastorealizadoFwU (12:17)
-                  margin:
-                      EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 39 * fem),
+                  margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 39 * fem),
                   child: Text(
                     'Agregar gasto realizado',
                     style: GoogleFonts.lato(
-                      //'Urbanist',
                       fontSize: 32 * ffem,
                       fontWeight: FontWeight.w800,
                       height: 1.2 * ffem / fem,
-                      color: Color(0xff95169e),
+                      color: Colors.black,  // Color del texto cambiado a negro
                     ),
                   ),
                 ),
+
                 Container(
                   // autogroup3hgjNWJ (5CrP7jKiapQ7GeWtYx3hgJ)
                   margin: EdgeInsets.fromLTRB(
@@ -118,13 +107,11 @@ class _AgregarGastoState extends State<AgregarGasto> {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Container(
-                        // descripcinKZx (12:9)
-                        margin: EdgeInsets.fromLTRB(
-                            0 * fem, 0 * fem, 0 * fem, 4 * fem),
+                        // Descripción (ajuste del margen inferior)
+                        margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 8 * fem), // Ajusta el valor de 8 * fem según sea necesario
                         child: Text(
-                          'Descripción:\n\n\n\n\n\n\n\n\n\n',
+                          'Descripción:',
                           style: GoogleFonts.lato(
-                            //'Noto Sans',
                             fontSize: 16 * ffem,
                             fontWeight: FontWeight.w600,
                             height: 1.3625 * ffem / fem,
@@ -144,13 +131,11 @@ class _AgregarGastoState extends State<AgregarGasto> {
                         ),
                       ),
                       Container(
-                        // cantidadwLS (12:27)
-                        margin: EdgeInsets.fromLTRB(
-                            0 * fem, 0 * fem, 0 * fem, 6 * fem),
+                        // Cantidad (ajuste del margen inferior)
+                        margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 8 * fem), // Ajusta el valor de 8 * fem según sea necesario
                         child: Text(
-                          'Cantidad:\n\n\n\n\n',
+                          'Cantidad:',
                           style: GoogleFonts.lato(
-                            //'Noto Sans',
                             fontSize: 16 * ffem,
                             fontWeight: FontWeight.w600,
                             height: 1.3625 * ffem / fem,
@@ -245,12 +230,11 @@ class _AgregarGastoState extends State<AgregarGasto> {
                       ),
                       Container(
                         // autogroup8ejxk4v (5CrPXJUmtgWJBV2iow8ejx)
-                        margin: EdgeInsets.fromLTRB(
-                            64 * fem, 0 * fem, 63 * fem, 0 * fem),
+                        margin: EdgeInsets.fromLTRB(64 * fem, 0 * fem, 63 * fem, 0 * fem),
                         width: double.infinity,
                         height: 40 * fem,
                         decoration: BoxDecoration(
-                          color: Color(0xffffce45),
+                          color: Colors.white,  // Color de fondo cambiado a blanco
                           borderRadius: BorderRadius.circular(40 * fem),
                           boxShadow: [
                             BoxShadow(
@@ -264,11 +248,10 @@ class _AgregarGastoState extends State<AgregarGasto> {
                           child: Text(
                             'Agregar',
                             style: GoogleFonts.lato(
-                              //'Mulish',
                               fontSize: 18 * ffem,
                               fontWeight: FontWeight.w800,
                               height: 1.255 * ffem / fem,
-                              color: Color(0xff000000),
+                              color: Color(0xff000000),  // Asegurándonos de que el texto sea visible contra el fondo blanco
                             ),
                           ),
                         ),
